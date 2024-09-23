@@ -5,6 +5,8 @@
     --font-color: #212121;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Lobster&family=Open+Sans:wght@300&display=swap');
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: var(--background-color);
@@ -36,6 +38,18 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+nav ul li:nth-child(1) a {
+    font-family: 'Lobster', cursive;
+}
+
+nav ul li:nth-child(2) a {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li:nth-child(3) a {
+    font-family: 'Open Sans', sans-serif;
 }
 
 main {
