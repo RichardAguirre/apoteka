@@ -123,6 +123,21 @@ button:hover {
     margin: 0.5rem 0;
 }
 
+.product-details {
+    display: none;
+    text-align: center;
+    padding: 2rem;
+}
+
+.product-details img {
+    width: 300px;
+    height: auto;
+}
+
+.product-details:target {
+    display: block;
+}
+
 footer {
     background-color: var(--primary-color);
     color: white;
